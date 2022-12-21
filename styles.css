@@ -23,6 +23,12 @@ body {
   margin: 0;
 }
 
+h1, button, .icon {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
 h1 {
   font-size: large;
   text-align: center;
